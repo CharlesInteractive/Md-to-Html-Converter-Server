@@ -4,9 +4,9 @@ A simple Node.js Express server that takes markdown and converts it into html us
 
 Usage example:
 ```
-const ex = "# A first-level heading"
+  const ex = "# A first-level heading"
 
-const getMarkdown = async (md) => {
+  const getMarkdown = async (md) => {
     const options = {
       method: "POST",
       body: JSON.stringify({
