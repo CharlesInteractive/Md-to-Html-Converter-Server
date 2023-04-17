@@ -1,5 +1,5 @@
 # Md-to-Html-Converter-Server
-A simple node.js server to that takes markdown and converts it into html using Markdown-it.
+A simple node.js express server that takes markdown and converts it into html using Markdown-it.
 
 
 Usage example:
