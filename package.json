@@ -1,0 +1,25 @@
+{
+  "name": "md-to-html-converter-server",
+  "version": "1.0.0",
+  "description": "A simple node.js server to that takes markdown and converts it into html.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlesInteractive/Md-to-Html-Converter-Server.git"
+  },
+  "author": "Charles Carroll",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CharlesInteractive/Md-to-Html-Converter-Server/issues"
+  },
+  "homepage": "https://github.com/CharlesInteractive/Md-to-Html-Converter-Server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "markdown-it": "^13.0.1",
+    "nodemon": "^2.0.22"
+  }
+}
